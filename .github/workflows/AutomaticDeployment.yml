@@ -32,4 +32,4 @@ jobs:
       run: npm install -g surge
     - name: Deploying on surge
       #./ means this same project. This is the representation of local URL in the same command on our local system
-      run: surge ./ http://practicingsurge.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./ http://practicingsurge.surge.sh --token $ {{ secrets.SURGE_KEY }}
