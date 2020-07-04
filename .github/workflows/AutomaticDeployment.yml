@@ -23,7 +23,7 @@ jobs:
     #uses is a tag which tells github to use a certain thing. there are certain things which are already done by github to the point where we can just assume somethings such as it will pick all the project code etc.
     # Runs a single command using the runners shell
     - name: Installing node module
-      run: actions/setup-node@v2-beta
+      uses: actions/setup-node@v2-beta
       with:
         node-version: 12  
 
